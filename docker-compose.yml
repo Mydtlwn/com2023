@@ -1,0 +1,5 @@
+version:'3.5'
+
+services:
+        ununtu-xfce-vnc:
+        container_name:xfce
