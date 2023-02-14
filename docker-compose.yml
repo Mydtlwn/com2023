@@ -2,4 +2,7 @@ version:'3.5'
 
 services:
         ununtu-xfce-vnc:
-        container_name:xfce
+              container_name:xfce
+              image:imlala/ubuntu-xfce-vnc-novnc:latest
+              shm_size:"2gb"
+              ports:-5555:5900
